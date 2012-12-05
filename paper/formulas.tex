@@ -1,0 +1,88 @@
+Definitionen:
+
+\Im = (G,u,\tau)
+mit:
+G = (N,A,\{0,…,T\}) , wobei
+N = \{1,...,n\}
+A = \{(i,j) | i,j \in N\}
+T
+u_{ij}(t)
+\tau_{ij}(t)
+(i,i), \,\,\, \forall i \in N    Holdover arcs
+M
+K = \{k_1, k_2,…,k_M\}
+l
+b_{k_m}(t)
+
+bei mehr als einem Exitknoten:
+
+B = \sum_{k_i \in K}\sum_{t=1}^{T}b_{k_i}(t)
+
+
+
+
+
+MIP-Formulierung des BEPSI:
+Vorweg: Variablendefinition:
+
+x_{i,j}(t)
+\lambda_{i,j}(t)
+\Gamma^-(i) = \{j|(j,i) \in A\}
+\Gamma^+(i) = \{j|(i,j) \in A\}
+
+
+
+P:min \sum_{(i,j)\in A}\sum_{t\in\{0,…,T\}}\tau_{ij}(t)x_{ij}(t)
+
+subject to:
+
+\sum_{j \in \Gamma^+ (i)}x_{ij}(t) - \sum_{j \in \Gamma^- (i)}\sum_{\{\overline{t}|\overline{t}+\tau_{ji}(\overline{t}) = t\}}x_{ji}(\overline{t}) = b_i(t), \forall i \in N, t \in \{0,…,T\}
+
+\lambda_{ij}(t) \leq x_{ij}(t) \leq \lambda_{ij}(t)u_{ij}(t), \,\, \forall (i,j) \in A, t \in \{0,…,T\}
+
+\sum_{j \in \Gamma^+ (i), j \neq i} \lambda_{ij}(t) \leq 1, \,\,\,\, \forall i \in N\backslash l, t \in \{0,…,T\}
+
+x_{ij}(t) \geq 0,\,\, \lambda_{ij}(t) binary, \,\,\, \forall (i,j) \in A, t \in \{0,…T\}
+
+
+Benders Decomposition
+
+LP zu Dual
+
+\text{max}\,\, w &= ub\\
+\text{s.t.}\,\, uA &\leq c\\
+u &\geq a
+
+allgemeine Dualitaet
+
+\text{max}\,\,\, \beta\\
+\text{s.t.}\,\,\, x &\in S \xrightarrow{D} 4x \geq \beta
+
+BD Methodik
+
+\text{min}\,\, z &= cx + f(\overline{y})\\
+\text{s.t.}\,\, Ax &\geq b - g(\overline{y})\\
+x &\in D
+
+\text{max}\,\,\, \beta\\
+\text{s.t.}\,\,\, Ax &\geq b - g(\overline{y}) \xrightarrow{x, \overline{y} \in D} cx + f(\overline{y}) \geq \beta
+
+\text{max}\,\,\, w &= u(b - g(\overline{y})) + f(\overline{y})\\
+\text{s.t.}\,\,\, uA &\leq c\\
+u &\in D
+
+\beta_{\overline{y}}(\overline{y}) = \beta^*
+
+z \geq u(b - g(y)) + f(\overline{y}) = \beta_{\overline{y}}(y)
+
+
+Benders Subproblem bzgl. BEPSI
+
+Aufteilen der Kantenmengen
+I_1(A) &= \{(i,j)|i,j \in N \,\text{and}\, \Gamma^+(i)\geq 2\}\\
+I_2(A) &= \{(i,j)|i,j \in N \,\text{and}\, \Gamma^+(i) = 1\}\\
+I_3(A) &= \{(i,i)|i \in N \}
+
+RS_p:
+\text{RS}_{\text{p}}(\tilde{\lambda}):\, \text{min} \sum_{(i,j)\in A} \sum_{t \in \{0,…,T\}} \tau_{ij}(t)x_{ij}(t)
+
