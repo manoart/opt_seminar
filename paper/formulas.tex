@@ -86,3 +86,10 @@ I_3(A) &= \{(i,i)|i \in N \}
 RS_p:
 \text{RS}_{\text{p}}(\tilde{\lambda}):\, \text{min} \sum_{(i,j)\in A} \sum_{t \in \{0,…,T\}} \tau_{ij}(t)x_{ij}(t)
 
+x_{ij}(t) \leq \tilde{\lambda}_{ij}(t)u_{ij}(t), \,\,\,\, \forall (i,j) \in I_1, t \in \{0,…,T\}
+
+
+Benders Dual Subproblem:
+
+\text{DRS}_p(\tilde{\lambda}):\text{max} \sum_{t \in \{0,…,T\}}\Bigg(\sum_{i \in N}\pi_i(t)b_i(t) + \sum_{(i,j)\in I_2(A)}u_{ij}(t)m_{ij}(t) + \sum_{(i,j)\in I_1(A)} \tilde{\lambda}_{ij}(t) u_{ij}(t) m_{ij}(t)\Bigg)
+
