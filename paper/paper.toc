@@ -1,0 +1,13 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{3}
+\contentsline {chapter}{\numberline {2}Problembeschreibung}{4}
+\contentsline {chapter}{\numberline {3}Modellierung als gemischt-ganzzahliges lineares Programm}{5}
+\contentsline {section}{\numberline {3.1}Variablen}{5}
+\contentsline {section}{\numberline {3.2}Modell}{6}
+\contentsline {chapter}{\numberline {4}Exaktes L\IeC {\"o}sungsverfahren Benders Decomposition}{7}
+\contentsline {section}{\numberline {4.1}Allgemeines Verfahren}{7}
+\contentsline {section}{\numberline {4.2}Verfahren anhand des BEPSI}{10}
+\contentsline {chapter}{\numberline {5}Beispiel}{13}
+\contentsline {section}{\numberline {5.1}Szenarien}{14}
+\contentsline {section}{\numberline {5.2}Ergebnisse}{15}
+\contentsline {chapter}{\numberline {6}Fazit}{16}
