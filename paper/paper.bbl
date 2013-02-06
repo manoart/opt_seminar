@@ -34,6 +34,19 @@
 \newblock 1.
 \newblock The National Fire Protection Association, 1988
 
+\bibitem[DGG98]{single_route}
+\textsc{Dinitz}, Yefim ; \textsc{Garg}, Naveen  ; \textsc{Goemans}, Michel~X.:
+\newblock On the Single-Source Unsplittable Flow Problem.
+\newblock {In: }\emph{Combinatorica} 19 (1998), S. 290--299
+
+\bibitem[MHSP04]{tdqfp}
+\textsc{Miller-Hooks}, E. ; \textsc{Stock~Patterson}, S.:
+\newblock On Solving Quickest Time Problems in {Time-Dependent}, Dynamic
+  Networks.
+\newblock {In: }\emph{Journal of Mathematical Modelling and Algorithms} 3
+  (2004), Nr. 1, 39--71.
+\newblock \url{http://dx.doi.org/10.1023/B:JMMA.0000026708.57419.6d}
+
 \bibitem[NFPA01]{fassungsvermoegen}
 \textsc{National Fire Protection~Association}, The:
 \newblock \emph{NFPA 101 Life Safety Code}.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.8.11)  17 JAN 2013 05:08
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.8.11)  6 FEB 2013 06:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,7 +923,13 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              `scrreprt' soon .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--145
+Overfull \hbox (6.08725pt too wide) in paragraph at lines 121--154
+\OT1/cmr/m/n/10.95 Geb[]audeevakuierung zu ver-bes-sern, um ef-fi-zi-en-te-re u
+nd si-che-re-re Eva-ku-ie-rungs-we-ge aus Geb[]auden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--154
 
  []
 
@@ -936,48 +942,54 @@ Kapitel 2.
 ]
 Kapitel 3.
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 195.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 206.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 210.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 222.
 
 [5
 
 ]
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 252.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 265.
 
 [6]
 Kapitel 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--289
+Underfull \hbox (badness 10000) in paragraph at lines 294--304
 
  []
 
@@ -985,94 +997,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--289
 
 ] [8] [9] [10]
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 473.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 489.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 488.
+Overfull \hbox (4.77942pt too wide) in paragraph at lines 489--499
+\OT1/cmr/m/n/10.95 Die Ziel-funk-ti-on (4.12[]), Flus-ser-hal-tungs-be-din-gung
+ (4.13[]) so-wie die nicht-negativ Be-din-gung (4.16[])
+ []
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 488.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 504.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 506.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 504.
+
+[11]
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 522.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 506.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 522.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 506.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 522.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 506.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 522.
 
-[11] [12]
+[12]
 Kapitel 5.
 <images/grundriss.png, id=59, 711.65875pt x 519.9425pt>
 File: images/grundriss.png Graphic file (type png)
 
 <use images/grundriss.png>
-Package pdftex.def Info: images/grundriss.png used on input line 530.
+Package pdftex.def Info: images/grundriss.png used on input line 548.
 (pdftex.def)             Requested size: 227.62206pt x 166.29773pt.
- [13
 
- <./images/grundriss.png>]
-Overfull \hbox (4.60432pt too wide) in paragraph at lines 615--624
+Overfull \hbox (2.8801pt too wide) in paragraph at lines 595--604
  [][] 
  []
 
-[14] [15]
+[13
+
+ <./images/grundriss.png>] [14] [15]
 Kapitel 6.
 
-Overfull \hbox (1.65245pt too wide) in paragraph at lines 645--674
+Overfull \hbox (1.65245pt too wide) in paragraph at lines 664--693
 \OT1/cmr/m/n/10.95 Abschlie^^Yend folgt nun ei-ne kur-ze Zu-sam-men-fas-sung in
  Ver-bin-dung ei-nes klei-nen Fa-zits. Zun[]achst
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--674
+Underfull \hbox (badness 10000) in paragraph at lines 664--693
 
  []
 
 [16
 
-] (./paper.bbl) [17
+] (./paper.bbl
+Underfull \hbox (badness 6188) in paragraph at lines 43--49
+[]\OT1/cmr/m/sc/10.95 Miller-Hooks\OT1/cmr/m/n/10.95 , E. ; \OT1/cmr/m/sc/10.95
+ Stock Pat-ter-son\OT1/cmr/m/n/10.95 , S.:  On Sol-ving Quickest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
+\OT1/cmr/m/n/10.95 Ti-me Pro-blems in Time-Dependent, Dy-na-mic Net-works.  In:
+ \OT1/cmr/m/it/10.95 Jour-
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 43--49
+\OT1/cmr/m/it/10.95 nal of Ma-the-ma-ti-cal Mo-del-ling and Al-go-rithms \OT1/c
+mr/m/n/10.95 3 (2004), Nr. 1, 39--71.
+ []
+
+) [17
 
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 13516 strings out of 493633
- 241706 string characters out of 3143377
- 324779 words of memory out of 3000000
- 16503 multiletter control sequences out of 15000+200000
+ 13521 strings out of 493633
+ 241764 string characters out of 3143377
+ 324822 words of memory out of 3000000
+ 16508 multiletter control sequences out of 15000+200000
  11796 words of font info for 44 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 65i,18n,71p,416b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,18n,71p,416b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
@@ -1090,7 +1127,7 @@ sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
 local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on paper.pdf (17 pages, 489354 bytes).
+Output written on paper.pdf (17 pages, 493332 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
